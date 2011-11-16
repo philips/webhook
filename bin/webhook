@@ -4,7 +4,6 @@ var Webhook = require('../lib/webhook').Webhook;
 var webhookServer = new Webhook({
   name: 'webhook-server',
   port: 9001,
-  debug: true
 });
 
 webhookServer.start();
