@@ -14,7 +14,7 @@ hook.io-webhook will also attempt to parse all incoming form and query string da
 
 ```javascript
 #! /usr/bin/env node
-var Webhook = require('../lib/webhook').Webhook;
+var Webhook = require('hook.io-webhook').Webhook;
 
 var webhookServer = new Webhook({
   name: 'webhook-server',
